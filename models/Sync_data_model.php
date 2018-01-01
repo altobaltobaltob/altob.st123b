@@ -933,8 +933,8 @@ class Sync_data_model extends CI_Model
 				// 離線直接拿預設場站
 				$station_setting = array();
 				$station_setting['station_no'] = STATION_NO;
-				$station_setting['station_no_list'] = STATION_NO;
-				//$station_setting['station_no_list'] = STATION_NO . SYNC_DELIMITER_ST_NO . '40702';
+				//$station_setting['station_no_list'] = STATION_NO;
+				$station_setting['station_no_list'] = STATION_NO . SYNC_DELIMITER_ST_NO . '40701';
 				$station_setting['station_name'] = STATION_NAME;
 				$station_setting['station_ip'] = STATION_LOCAL_IP;
 				$station_setting['station_port'] = STATION_LOCAL_PORT;

@@ -49,8 +49,8 @@ define('EXPORT_BASE', '/home/data/export/');			// 檔案匯出根路徑
 define('SOS_BASE',	FILE_BASE. 'sos/');					// 警急求救路徑
 define('SOS_MSG',	SOS_BASE. 'sos.txt');				// 警急求救檔案路徑
    
-define('STATION_NAME', '未設定（預設：中榮）');			// 本場站名稱
-define('STATION_NO', 40701);							// 本場站編號
+define('STATION_NAME', '未設定（預設：中榮北區）');		// 本場站名稱
+define('STATION_NO', 40702);							// 本場站編號
 define('STATION_IP', $_SERVER['SERVER_NAME']);			// 本場站IP
 define('STATION_URL', 'http://'.STATION_IP.'/');		// 本場站URL
 
